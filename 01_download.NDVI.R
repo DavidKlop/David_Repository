@@ -11,13 +11,10 @@
 ##                         start = "2000-01-01",
 ##                         end = "2021-10-01",
 ##                         progress = FALSE)
-
+##
 
 ## 2) How we'll do it for the prac: Read the data from a .csv file in my github repository for the course notes
 ##
-
-#Here is David
-
 download.NDVI <- function(URL) {
 
   # Wrap function in an if/else loop that checks if the URL is valid
@@ -40,4 +37,4 @@ download.NDVI <- function(URL) {
     # If the URL is not valid return...
     print(paste("download.NDVI: Input URL not provided correctly",URL))
   }
-# }
+}
